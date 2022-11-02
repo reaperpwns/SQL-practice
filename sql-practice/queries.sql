@@ -1,4 +1,5 @@
-SELECT * FROM customers;
-SELECT * FROM coffee_orders;
+SELECT * FROM employees;
+SELECT * FROM reviews;
+SELECT * FROM parties;
 -- .tables
 -- .schema
