@@ -29,3 +29,16 @@ CREATE TABLE coffee_orders (
 -- STRUCTURE QUERIES TO
 -- SIMULATE CUSTOMER EVENTS
 ------------------------------
+
+INSERT INTO customers (name, phone)
+VALUES ('Rachel', 1111111111);
+
+UPDATE customers
+SET points = points+1
+WHERE phone=1111111111;
+
+
+
+-- UPDATE friends
+-- SET last_name = 'Blue'
+-- WHERE first_name = 'Amy' AND last_name = 'Pond';
